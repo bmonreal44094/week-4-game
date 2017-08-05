@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Gem Game</title>
+	
+	<!-- Reset CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	
+	<!-- Bootstrap 3.3.6 -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!--Bootswatch Cyborg-->
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    
+    <!--Javascript-->
+    <script  src="assets/javascript/game.js"></script>
+	
+	<!--My CSS Override of Bootstrap and Bootswatch-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-12">
+				<div class="header">
+					<h1>Gem Game Baby!</h1>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col-md-6">
+				<p>You will be given a random number of crystals at the start of the game.</p>
+				<br>
+				<p>There are four crystals below. By cliking on a crystal you will add a specific amount of points to your total score.</p>
+				<br>
+				<p>You win the game by matching your total score to random number,you lose the game if your total score goes above the random number.</p>
+				<br>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<br>
+				<p>Each time when game starts,the game will change the values of each crystal.</p>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-4">
+				<h2>Random Number</h2>
+				<div id="randomNumber" class="panel-body"></div>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Wins &amp; Losses</h2>
+				<div class="panel-body">
+					<div id="wins" class="winsNLosses"></div>
+					<div id="losses" class="winsNLosses"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Your Score</h2>
+				<div id="score" class="panel-body"></div>				
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col-md-12 gems">
+				<img id="redGem" class="gemImages" src="assets/images/red.png">
+				<img id="blueGem" class="gemImages" src="assets/images/blue.png">
+				<img id="yellowGem" class="gemImages" src="assets/images/yellow.png">
+				<img id="greenGem" class="gemImages" src="assets/images/green.png">
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>
