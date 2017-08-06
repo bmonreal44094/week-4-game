@@ -1,22 +1,30 @@
 .header {
 	height: 100px;
 }
+
 .panel-body {
-	padding: 5px;
 	color: white;
 	text-align: center;
-	font-size: 300%;
+	font-size: 250%;
 }
 
 .col-md-4 {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 .gemImages {
-	margin: 20px;
+	margin: 15px;
+	border-width: 3px;
+	border-color: #2a9fd6;
+	border-style: solid;
 }
 
 .winsNLosses {
 	font-size: 70%;
+}
+
+.panel-body {
+	height: 100px;
 }
