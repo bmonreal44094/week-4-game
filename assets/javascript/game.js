@@ -62,6 +62,7 @@ function youLose () {
 	timesRun++
 	reset();
 	refresh();
+	$("#score").text("You Lose!");
 }
 
 //Executed if the users score equels the random number
@@ -72,6 +73,7 @@ function youWin () {
 	timesRun++
 	reset();
 	refresh();
+	$("#score").text("You Win!");
 }
 
 //Refreshes the values on the screen as the game is played or
