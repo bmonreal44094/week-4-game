@@ -4,7 +4,7 @@
 
 <head>
 
-	<title>Gem Game</title>
+	<title>Star Wars Fight Club</title>
 	
 	<!-- Reset CSS -->
 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
@@ -34,7 +34,7 @@
 
 			<div class="col-md-12 header">
 				<div class="bs-component">
-					<h1>Gem Game Baby!</h1>
+					<h1 class="header">Star Wars Fight Club!</h1>
 				</div>
 			</div>
 
@@ -43,80 +43,58 @@
 
 		<div class="row">
 
-			<div class="col-md-8">
-				<div class="bs-component">
-					<div class="list-group">
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">Directions</h4>
-							<p class="list-group-item-text">You will be given a random number of crystals at the start of the game.</p>
-							<p class="list-group-item-text">There are four crystals below. By cliking on a crystal you will add a specific amount of points to your total score.</p>
-							<p class="list-group-item-text">You win the game by matching your total score to random number,you lose the game if your total score goes above the random number.</p>
-							<p class="list-group-item-text">The value of each crystal is hidden from you until you click on it.</p>
-							<p class="list-group-item-text">Each time the game starts,the game will change the values of each crystal.</p>	
-						</a>
-					</div>
-				</div>
+			<div class="col-md-12">
+				<div class="row bs-component player"></div>
 			</div>
+
+		</div>
 			
-			<div class="col-md-4"></div>
-
-		</div>
-
 		<div class="row">
 
-			<div class="col-md-4">
+			<div class="col-md-12">
 				<div class="bs-component">
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<h3 class="panel-title">Random Number</h3>
-						</div>
-						<div id="randomNumber" class="panel-body"></div>
-					</div>
+					<h4>Your Character</h4>
 				</div>
 			</div>
 
-			<div class="col-md-4">
-				<div class="bs-component">
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<h3 class="panel-title">Wins &amp; Losses</h3>
-						</div>
-						<div class="panel-body">
-							<div id="wins" class="winsNLosses"></div>
-							<div id="losses" class="winsNLosses"></div>
-						</div>
-					</div>
-				</div>		
-			</div>
-
-			<div class="col-md-4">
-				<div class="bs-component">
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<h3 class="panel-title">Your Score</h3>
-						</div>
-						<div id="score" class="panel-body"></div>	
-					</div>
-				</div>	
-			</div>
-
 		</div>
-
 
 		<div class="row">
 
-			<div class="col-md-12 gems">
-				<img id="redGem" class="gemImages" src="assets/images/red.png">
-				<img id="blueGem" class="gemImages" src="assets/images/blue.png">
-				<img id="yellowGem" class="gemImages" src="assets/images/yellow.png">
-				<img id="greenGem" class="gemImages" src="assets/images/green.png">
+			<div class="col-md-12">
+				<div class="row bs-component potentialEnemies"></div>
+			</div>			
+
+		</div>
+
+		<div class="row">
+			
+			<div class="col-md-12">
+				<h4>Enemies Avalable To Attack</h4>
 			</div>
 
 		</div>
 
+		<div class="row">
+			
+			<div class="col-md-12">
+				<h4>Fight Section</h4>
+				<button class="attackButton btn btn-primary">Fight</button>
+				<h4>Defender</h4>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-12">
+				<div class="row bs-component currentEnemy"></div>	
+			</div>			
+
+		</div>
+		
 	</div>
 
-
-
 </body>
+
 </html>
