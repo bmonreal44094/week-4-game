@@ -25,3 +25,20 @@
 .attackButton {
 	font-size: 24px;
 }
+
+.extraEnemyH2 {
+	padding: 60px;
+}
+
+#playerResults {
+	padding: 15px;
+	font-size: 16px;
+	color: white;
+}
+
+#enemyResults {
+	padding: 15px;
+	font-size: 16px;
+	color: white;
+}
+
